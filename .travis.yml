@@ -1,0 +1,7 @@
+language: python
+
+php:
+  - 3.8
+
+script:
+  - python3.8 -m unittest -v fibo_test.py

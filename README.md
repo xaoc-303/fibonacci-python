@@ -19,6 +19,10 @@
 ## run
 
 ```
-time python3.7 fibo.py f1 30
-time python3.7 fibo.py f2 30
+time python3.7 main.py f1 30
+time python3.7 main.py f2 30
+```
+
+```
+python3 -m unittest -v fibo_test.py
 ```
