@@ -1,6 +1,6 @@
 # fibonacci-python
 
-[![Build Status](https://travis-ci.org/xaoc-303/fibonacci-python.svg?branch=master)](https://travis-ci.org/xaoc-303/fibonacci-python)
+[![CircleCI](https://circleci.com/gh/xaoc-303/fibonacci-python/tree/master.svg?style=shield)](https://circleci.com/gh/xaoc-303/fibonacci-python/tree/master)
 
 ## recursive if-else
 

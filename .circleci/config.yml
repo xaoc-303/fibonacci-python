@@ -1,0 +1,10 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cimg/python:3.9.10
+    steps:
+      - checkout  # checkout source code to working directory
+      - run:
+          command: |  # create whl and use pipenv to install dependencies
+            python -m unittest -v fibo_test.py
